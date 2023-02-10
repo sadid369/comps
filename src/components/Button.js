@@ -21,18 +21,18 @@ function Button({
     rest.className,
     "flex items-center px-3 py-1.5 border ",
     {
-      "text-white border-blue-400 bg-blue-500": primary,
-      "text-white border-gray-400 bg-gray-900": secondary,
-      "text-white border-green-400 bg-green-500": success,
-      "text-white border-yellow-400 bg-yellow-400": warning,
-      "text-white border-red-400 bg-red-500": danger,
+      "text-white border-blue-600 bg-blue-500": primary,
+      "text-white border-gray-600 bg-gray-900": secondary,
+      "text-white border-green-600 bg-green-500": success,
+      "text-white border-yellow-600 bg-yellow-400": warning,
+      "text-white border-red-600 bg-red-500": danger,
       "rounded-full": rounded,
       "bg-white": outline,
-      "text-blue-400": outline && primary,
-      "text-gray-400": outline && secondary,
-      "text-green-400": outline && success,
-      "text-yellow-400": outline && warning,
-      "text-red-400": outline && danger,
+      "text-blue-600": outline && primary,
+      "text-gray-600": outline && secondary,
+      "text-green-600": outline && success,
+      "text-yellow-600": outline && warning,
+      "text-red-600": outline && danger,
     }
   );
   return (
