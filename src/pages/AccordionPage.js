@@ -1,24 +1,24 @@
-import Accordion from "./../components/Accordion";
+import Accordion from '../components/Accordion';
 
 function AccordionPage() {
   const items = [
     {
-      id: "jdhAHDhK",
-      label: "Can i use react on a project?",
+      id: 'l2kj5',
+      label: 'Can I use React on a project?',
       content:
-        "Anim ad ad exercitation reprehenderit laborum labore ullamco officia et ipsum labore et. Et qui anim exercitation cillum in. Est sit exercitation ipsum non culpa amet amet qui non qui non excepteur in. Pariatur et Lorem veniam ut proident qui labore officia commodo velit officia non. Aute culpa in reprehenderit nulla Lorem deserunt nostrud ipsum ex. Quis pariatur cupidatat veniam incididunt id occaecat sunt consequat culpa.",
+        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
     },
     {
-      id: "<JdhHdjjad",
-      label: "Can i use javascript on a project?",
+      id: 'lk2j35lkj',
+      label: 'Can I use Javascript on a project?',
       content:
-        "Anim ad ad exercitation reprehenderit laborum labore ullamco officia et ipsum labore et. Et qui anim exercitation cillum in. Est sit exercitation ipsum non culpa amet amet qui non qui non excepteur in. Pariatur et Lorem veniam ut proident qui labore officia commodo velit officia non. Aute culpa in reprehenderit nulla Lorem deserunt nostrud ipsum ex. Quis pariatur cupidatat veniam incididunt id occaecat sunt consequat culpa.",
+        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
     },
     {
-      id: "M<dhHGBd",
-      label: "Can i use css on a project?",
+      id: 'l1kj2i0g',
+      label: 'Can I use CSS on a project?',
       content:
-        "Anim ad ad exercitation reprehenderit laborum labore ullamco officia et ipsum labore et. Et qui anim exercitation cillum in. Est sit exercitation ipsum non culpa amet amet qui non qui non excepteur in. Pariatur et Lorem veniam ut proident qui labore officia commodo velit officia non. Aute culpa in reprehenderit nulla Lorem deserunt nostrud ipsum ex. Quis pariatur cupidatat veniam incididunt id occaecat sunt consequat culpa.",
+        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
     },
   ];
 

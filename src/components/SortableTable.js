@@ -1,10 +1,10 @@
-import { GoArrowSmallDown, GoArrowSmallUp } from "react-icons/go";
-import Table from "./Table";
-import useSort from "../hooks/use-sort";
+import { GoArrowSmallDown, GoArrowSmallUp } from 'react-icons/go';
+import Table from './Table';
+import useSort from '../hooks/use-sort';
 
 function SortableTable(props) {
   const { config, data } = props;
-  const { sortBy, sortOrder, setSortColumn, sortedData } = useSort(
+  const { sortOrder, sortBy, sortedData, setSortColumn } = useSort(
     data,
     config
   );
@@ -13,15 +13,16 @@ function SortableTable(props) {
     if (!column.sortValue) {
       return column;
     }
+
     return {
       ...column,
       header: () => (
         <th
-          className={`cursor-pointer hover:bg-gray-100`}
+          className="cursor-pointer hover:bg-gray-100"
           onClick={() => setSortColumn(column.label)}
         >
-          <div className={`flex items-center`}>
-            {getIocns(column.label, sortBy, sortOrder)}
+          <div className="flex items-center">
+            {getIcons(column.label, sortBy, sortOrder)}
             {column.label}
           </div>
         </th>
@@ -32,7 +33,7 @@ function SortableTable(props) {
   return <Table {...props} data={sortedData} config={updatedConfig} />;
 }
 
-function getIocns(label, sortBy, sortOrder) {
+function getIcons(label, sortBy, sortOrder) {
   if (label !== sortBy) {
     return (
       <div>
@@ -41,6 +42,7 @@ function getIocns(label, sortBy, sortOrder) {
       </div>
     );
   }
+
   if (sortOrder === null) {
     return (
       <div>
@@ -48,13 +50,13 @@ function getIocns(label, sortBy, sortOrder) {
         <GoArrowSmallDown />
       </div>
     );
-  } else if (sortOrder === "asc") {
+  } else if (sortOrder === 'asc') {
     return (
       <div>
         <GoArrowSmallUp />
       </div>
     );
-  } else if (sortOrder === "desc") {
+  } else if (sortOrder === 'desc') {
     return (
       <div>
         <GoArrowSmallDown />

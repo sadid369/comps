@@ -1,14 +1,18 @@
-import { useState } from "react";
-import Modal from "../components/Modal";
-import Button from "../components/Button";
+import { useState } from 'react';
+import Modal from '../components/Modal';
+import Button from '../components/Button';
+
 function ModalPage() {
   const [showModal, setShowModal] = useState(false);
+
   const handleClick = () => {
     setShowModal(true);
   };
+
   const handleClose = () => {
     setShowModal(false);
   };
+
   const actionBar = (
     <div>
       <Button onClick={handleClose} primary>
@@ -21,95 +25,123 @@ function ModalPage() {
       <p>Here is an important agreement for you to accept</p>
     </Modal>
   );
+
   return (
     <div>
       <Button onClick={handleClick} primary>
         Open Modal
       </Button>
       {showModal && modal}
+
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
       <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
-      </p>
-      <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
-      </p>
-      <p>
-        Incididunt consectetur do aute dolore sit proident. Voluptate dolore
-        excepteur esse minim. Mollit qui ex deserunt ea in est qui ipsum eu
-        adipisicing culpa excepteur id. Elit magna sit occaecat ipsum ex laborum
-        est ipsum ut ex aliquip quis veniam. Est enim duis Lorem et magna
-        officia eu ea consectetur proident excepteur veniam aliquip enim.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat elit
+        in est interdum fermentum. Cras vehicula a urna sit amet auctor. Mauris
+        tempor magna a imperdiet posuere. Quisque quis malesuada felis, sit amet
+        commodo mi. Vestibulum finibus suscipit porta. Donec a enim ac eros
+        pellentesque efficitur. In ut ex enim. Cras lacinia quam id urna
+        dapibus, a consequat mauris posuere. Etiam sed erat quis lacus
+        condimentum viverra scelerisque sit amet elit. Mauris eget nunc
+        sagittis, dapibus risus pharetra, placerat neque. Maecenas tristique
+        risus lorem.
       </p>
     </div>
   );
